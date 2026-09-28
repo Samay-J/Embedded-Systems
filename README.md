@@ -7,7 +7,6 @@ learning hardware communication protocols, sensor integration, and cloud telemet
 
 | Project | Boards | What it does |
 |---|---|---|
-| [`cretus-rc-car`](projects/cretus-rc-car) | ESP32 x2, Arduino | RC car: ESP-NOW gyro-steering transmitter/receiver, BLDC motor control, PS4 controller (Bluepad32) alternate control scheme, OLED drift-speed display, load-cell throttle pedal |
 | [`cloud-telemetry-dashboard`](projects/cloud-telemetry-dashboard) | Arduino, ESP32, ESP8266 | DHT11/DHT22 sensor data pushed to ThingsBoard (MQTT) and InfluxDB Cloud (Telegraf), across every board variant |
 | [`aws-iot-core`](projects/aws-iot-core) | ESP32 | DHT sensor telemetry to AWS IoT Core over TLS (MQTT + client cert) |
 | [`gps-tracker`](projects/gps-tracker) | ESP32, Arduino, SIM808 | GPS module readers (serial + MQTT) and a 4G/GPRS SIM808 tracker reporting to Blynk |
