@@ -34,10 +34,6 @@ committed.
 
 A few things were deliberately left out of this repo rather than vendored:
 
-- Third-party cloned tools that were used for experimentation (an ESP8266 deauther,
-  an ESP32 WiFi pentesting tool, a Gemini API example repo, an Arduino examples
-  collection) — these live upstream on GitHub already; re-hosting a copy here would
-  just be stale duplication.
 - Arduino libraries (Adafruit GFX/SSD1306/MPU6050, ESP32Servo, RadioHead, rc-switch,
   etc.) — install these via the Arduino Library Manager / PlatformIO as needed per
   sketch.
