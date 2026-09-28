@@ -1,0 +1,18 @@
+# Real secrets — never commit, only the .example.h templates
+secrets.h
+config.h
+*.secrets.h
+
+# Arduino / PlatformIO build artifacts
+build/
+.pio/
+*.hex
+*.bin
+*.elf
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/

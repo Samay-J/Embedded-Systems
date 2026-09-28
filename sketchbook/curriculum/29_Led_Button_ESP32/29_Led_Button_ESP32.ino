@@ -1,0 +1,16 @@
+void setup() {
+  Serial.begin(9600);
+  pinMode(0, INPUT_PULLUP);
+  pinMode(2, OUTPUT);
+}
+
+void loop() {
+  int pushed = digitalRead(0);
+  Serial.println(pushed);
+  if (pushed == LOW){
+    digitalWrite(2, HIGH);
+  }
+  else{
+    digitalWrite(2, LOW);
+  }
+}
